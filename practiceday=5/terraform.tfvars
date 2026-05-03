@@ -1,0 +1,1 @@
+rg = ["laptop", "pc", "phone", "headphones"]
