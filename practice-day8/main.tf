@@ -11,8 +11,8 @@ provider "azurerm" {
   features {}
 }
 
-resource "azurerm_resource_group" "creat" {
-  for_each = tomap(var.rgs)
+resource "azurerm_resource_group" "create" {
+  for_each = var.rgs
   name     = each.key
   location = each.value
 }
