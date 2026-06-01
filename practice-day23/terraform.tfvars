@@ -75,6 +75,7 @@ cn_map = {
 blob_map = {
   blob0 = {
     name          = "tanjiroblob"
+    content_type  = "html"
     stg_reference = "stg0"
     cn_reference  = "cn0"
     type          = "Block"
@@ -82,6 +83,7 @@ blob_map = {
   }
   blob1 = {
     name          = "nezukoblob"
+    content_type  = "html"
     stg_reference = "stg1"
     cn_reference  = "cn1"
     type          = "Block"
@@ -96,6 +98,7 @@ blob_map = {
   }
   blob3 = {
     name          = "yoichiblob"
+    content_type  = "html"
     stg_reference = "stg3"
     cn_reference  = "cn3"
     type          = "Block"
